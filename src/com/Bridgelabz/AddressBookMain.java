@@ -30,7 +30,7 @@ public class AddressBookMain {
         long phoneNo = sc.nextLong();
         System.out.println("Enter email id : ");
         String email = sc.next();
-
+                     
         addressBook.createContact(firstName,lastName,street,city,state,zip,phoneNo,email);
 
     }
@@ -120,18 +120,18 @@ public class AddressBookMain {
                     "0.Exit");
             int ch = scan.nextInt();
             switch (ch){
-                case 0:
+                    case 0:
                     System.exit(0);
                     break;
-                case 1:
+                   case 1:
                     addressBookMain.addContact();
                     break;
-                case 2:
+                   case 2:
                     System.out.println("Enter person name");
                     String name = scan.next();
                     addressBookMain.editContact(name);
                     break;
-                case 3:
+                    case 3:
                     System.out.println("Enter person name");
                     String name1 = scan.next();
                     addressBookMain.deleteContact(name1);
