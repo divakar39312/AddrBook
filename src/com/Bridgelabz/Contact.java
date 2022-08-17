@@ -3,6 +3,7 @@ package com.Bridgelabz;
 public class Contact {
 
 	 private String firstName;
+	 
 	    private String lastName;
 	    private String street;
 	    private String city;
